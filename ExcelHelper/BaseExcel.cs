@@ -11,7 +11,7 @@ namespace ExcelHelper
 {
     public class BaseExcel
     {
-        public BaseExcel(string path, ILogger logger)
+        public BaseExcel(string path, ILogger? logger)
         {
             Logger = logger;
             Path = path;
